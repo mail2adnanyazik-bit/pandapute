@@ -1,0 +1,81 @@
+ERC report (2026-07-09T18:15:48+0200, Encoding UTF8)
+Report includes: Errors
+
+***** Sheet /
+
+***** Sheet /Power/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3100 mils, 6200 mils): Symbol J2 Pin A8 [SBU1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3100 mils, 6300 mils): Symbol J2 Pin B8 [SBU2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6750 mils, 3050 mils): Symbol U2 Pin 3 [LED2, Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6750 mils, 3150 mils): Symbol U2 Pin 4 [LED3, Output, Line]
+
+***** Sheet /ESP32/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6500 mils, 3750 mils): Symbol U3 Pin 23 [IO21, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6500 mils, 3850 mils): Symbol U3 Pin 28 [IO35, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6500 mils, 3950 mils): Symbol U3 Pin 29 [IO36, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6500 mils, 4050 mils): Symbol U3 Pin 30 [IO37, Bidirectional, Line]
+
+***** Sheet /Audio/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3250 mils, 4200 mils): Symbol J4 Pin 6 [Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3650 mils, 4200 mils): Symbol J4 Pin 7 [Bidirectional, Line]
+
+***** Sheet /Display/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2700 mils, 4600 mils): Symbol J5 Pin 9 [Pin_9, Passive, Line]
+
+***** Sheet /Keyboard/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(1350 mils, 2850 mils): Symbol U5 Pin 3 [ROW5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(1350 mils, 2950 mils): Symbol U5 Pin 2 [ROW6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(1350 mils, 3050 mils): Symbol U5 Pin 1 [ROW7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2750 mils, 3150 mils): Symbol U5 Pin 17 [COL8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2750 mils, 3250 mils): Symbol U5 Pin 18 [COL9, Bidirectional, Line]
+
+***** Sheet /Peripherals/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6400 mils, 3100 mils): Symbol U6 Pin 6 [AUX_DA, Unspecified, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6400 mils, 3200 mils): Symbol U6 Pin 7 [AUX_CL, Unspecified, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6400 mils, 3600 mils): Symbol U6 Pin 11 [FSYNC, Unspecified, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6400 mils, 3700 mils): Symbol U6 Pin 12 [INT, Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(8200 mils, 2600 mils): Symbol U6 Pin 25 [EPAD, Unspecified, Line]
+
+ ** ERC messages: 21  Errors 21  Warnings 0

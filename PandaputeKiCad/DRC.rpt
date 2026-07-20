@@ -1,0 +1,399 @@
+** Drc report for Pandapute.kicad_pcb **
+** Created on 2026-07-14T21:39:24+0200 **
+** Report includes: Errors **
+
+** Found 100 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1600 mm)
+    Rule: netclass 'Default'; error
+    @(79.1900 mm, 35.4500 mm): Pad 1 [AUDIO_CTRL] of U4 on F.Cu
+    @(79.1900 mm, 36.1000 mm): Pad 2 [Net-(U4-BYPASS)] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1600 mm)
+    Rule: netclass 'Default'; error
+    @(79.1900 mm, 36.1000 mm): Pad 2 [Net-(U4-BYPASS)] of U4 on F.Cu
+    @(79.1900 mm, 36.7500 mm): Pad 3 [Net-(U4-INP)] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1600 mm)
+    Rule: netclass 'Default'; error
+    @(79.1900 mm, 36.7500 mm): Pad 3 [Net-(U4-INP)] of U4 on F.Cu
+    @(79.1900 mm, 37.4000 mm): Pad 4 [Net-(U4-INN)] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1600 mm)
+    Rule: netclass 'Default'; error
+    @(83.5000 mm, 37.4000 mm): Pad 5 [SPEAKER-] of U4 on F.Cu
+    @(83.5000 mm, 36.7500 mm): Pad 6 [+5V] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1600 mm)
+    Rule: netclass 'Default'; error
+    @(83.5000 mm, 36.7500 mm): Pad 6 [+5V] of U4 on F.Cu
+    @(83.5000 mm, 36.1000 mm): Pad 7 [GND] of U4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1600 mm)
+    Rule: netclass 'Default'; error
+    @(83.5000 mm, 36.1000 mm): Pad 7 [GND] of U4 on F.Cu
+    @(83.5000 mm, 35.4500 mm): Pad 8 [SPEAKER+] of U4 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3000 mm)
+    Rule: board setup constraints edge; error
+    @(42.5000 mm, 20.0000 mm): Rectangle on Edge.Cuts
+    @(232.4000 mm, 66.4300 mm): PTH pad S1 [GND] of J2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3000 mm)
+    Rule: board setup constraints edge; error
+    @(42.5000 mm, 20.0000 mm): Rectangle on Edge.Cuts
+    @(232.4000 mm, 75.0700 mm): PTH pad S1 [GND] of J2
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(199.9500 mm, 50.7700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(199.9500 mm, 52.1700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(200.6500 mm, 50.0700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(200.6500 mm, 51.4700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(200.6500 mm, 52.8700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(201.3500 mm, 50.7700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(201.3500 mm, 52.1700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(202.0500 mm, 50.0700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(202.0500 mm, 51.4700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(202.0500 mm, 52.8700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(202.7500 mm, 50.7700 mm): PTH pad 41 [GND] of U3
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(202.7500 mm, 52.1700 mm): PTH pad 41 [GND] of U3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(50.4350 mm, 82.9350 mm): Pad 24 [KB_INT] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(49.9350 mm, 82.9350 mm): Pad 23 [I2C_SCL] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(49.4350 mm, 82.9350 mm): Pad 22 [I2C_SDA] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(48.9350 mm, 82.9350 mm): Pad 21 [+3.3V] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(48.4350 mm, 82.9350 mm): Pad 20 [Net-(U5-~{RESET})] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(47.2500 mm, 82.2500 mm): Pad 18 [unconnected-(U5-COL9-Pad18)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(47.2500 mm, 81.7500 mm): Pad 17 [unconnected-(U5-COL8-Pad17)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(47.2500 mm, 81.2500 mm): Pad 16 [COL7] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(47.2500 mm, 80.7500 mm): Pad 15 [COL6] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(47.2500 mm, 80.2500 mm): Pad 14 [COL5] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(47.2500 mm, 79.7500 mm): Pad 13 [COL4] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(48.9350 mm, 79.0650 mm): Pad 10 [COL1] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(49.4350 mm, 79.0650 mm): Pad 9 [COL0] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(49.9350 mm, 79.0650 mm): Pad 8 [ROW0] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(50.4350 mm, 79.0650 mm): Pad 7 [ROW1] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(51.1200 mm, 79.7500 mm): Pad 6 [ROW2] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(51.1200 mm, 80.2500 mm): Pad 5 [ROW3] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(51.1200 mm, 80.7500 mm): Pad 4 [NAV_COM] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(51.1200 mm, 81.2500 mm): Pad 3 [unconnected-(U5-ROW5-Pad3)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(51.1200 mm, 81.7500 mm): Pad 2 [unconnected-(U5-ROW6-Pad2)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(51.1200 mm, 82.2500 mm): Pad 1 [unconnected-(U5-ROW7-Pad1)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(47.9350 mm, 79.0650 mm): Pad 12 [COL3] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.1850 mm, 81.0000 mm): Pad 25 [GND] of U5 on F.Cu
+    @(48.4350 mm, 79.0650 mm): Pad 11 [COL2] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(50.4350 mm, 82.9350 mm): Pad 24 [KB_INT] of U5 on F.Cu
+    @(49.9350 mm, 82.9350 mm): Pad 23 [I2C_SCL] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(50.4350 mm, 82.9350 mm): Pad 24 [KB_INT] of U5 on F.Cu
+    @(51.1200 mm, 82.2500 mm): Pad 1 [unconnected-(U5-ROW7-Pad1)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.9350 mm, 82.9350 mm): Pad 23 [I2C_SCL] of U5 on F.Cu
+    @(49.4350 mm, 82.9350 mm): Pad 22 [I2C_SDA] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.4350 mm, 82.9350 mm): Pad 22 [I2C_SDA] of U5 on F.Cu
+    @(48.9350 mm, 82.9350 mm): Pad 21 [+3.3V] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(48.9350 mm, 82.9350 mm): Pad 21 [+3.3V] of U5 on F.Cu
+    @(48.4350 mm, 82.9350 mm): Pad 20 [Net-(U5-~{RESET})] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(48.4350 mm, 82.9350 mm): Pad 20 [Net-(U5-~{RESET})] of U5 on F.Cu
+    @(47.9350 mm, 82.9350 mm): Pad 19 [GND] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(47.9350 mm, 82.9350 mm): Pad 19 [GND] of U5 on F.Cu
+    @(47.2500 mm, 82.2500 mm): Pad 18 [unconnected-(U5-COL9-Pad18)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(47.2500 mm, 82.2500 mm): Pad 18 [unconnected-(U5-COL9-Pad18)] of U5 on F.Cu
+    @(47.2500 mm, 81.7500 mm): Pad 17 [unconnected-(U5-COL8-Pad17)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(47.2500 mm, 81.7500 mm): Pad 17 [unconnected-(U5-COL8-Pad17)] of U5 on F.Cu
+    @(47.2500 mm, 81.2500 mm): Pad 16 [COL7] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(47.2500 mm, 81.2500 mm): Pad 16 [COL7] of U5 on F.Cu
+    @(47.2500 mm, 80.7500 mm): Pad 15 [COL6] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(47.2500 mm, 80.7500 mm): Pad 15 [COL6] of U5 on F.Cu
+    @(47.2500 mm, 80.2500 mm): Pad 14 [COL5] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(47.2500 mm, 80.2500 mm): Pad 14 [COL5] of U5 on F.Cu
+    @(47.2500 mm, 79.7500 mm): Pad 13 [COL4] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(47.2500 mm, 79.7500 mm): Pad 13 [COL4] of U5 on F.Cu
+    @(47.9350 mm, 79.0650 mm): Pad 12 [COL3] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(47.9350 mm, 79.0650 mm): Pad 12 [COL3] of U5 on F.Cu
+    @(48.4350 mm, 79.0650 mm): Pad 11 [COL2] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(48.4350 mm, 79.0650 mm): Pad 11 [COL2] of U5 on F.Cu
+    @(48.9350 mm, 79.0650 mm): Pad 10 [COL1] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(48.9350 mm, 79.0650 mm): Pad 10 [COL1] of U5 on F.Cu
+    @(49.4350 mm, 79.0650 mm): Pad 9 [COL0] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.4350 mm, 79.0650 mm): Pad 9 [COL0] of U5 on F.Cu
+    @(49.9350 mm, 79.0650 mm): Pad 8 [ROW0] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(49.9350 mm, 79.0650 mm): Pad 8 [ROW0] of U5 on F.Cu
+    @(50.4350 mm, 79.0650 mm): Pad 7 [ROW1] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(50.4350 mm, 79.0650 mm): Pad 7 [ROW1] of U5 on F.Cu
+    @(51.1200 mm, 79.7500 mm): Pad 6 [ROW2] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(51.1200 mm, 79.7500 mm): Pad 6 [ROW2] of U5 on F.Cu
+    @(51.1200 mm, 80.2500 mm): Pad 5 [ROW3] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(51.1200 mm, 80.2500 mm): Pad 5 [ROW3] of U5 on F.Cu
+    @(51.1200 mm, 80.7500 mm): Pad 4 [NAV_COM] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(51.1200 mm, 80.7500 mm): Pad 4 [NAV_COM] of U5 on F.Cu
+    @(51.1200 mm, 81.2500 mm): Pad 3 [unconnected-(U5-ROW5-Pad3)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(51.1200 mm, 81.2500 mm): Pad 3 [unconnected-(U5-ROW5-Pad3)] of U5 on F.Cu
+    @(51.1200 mm, 81.7500 mm): Pad 2 [unconnected-(U5-ROW6-Pad2)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(51.1200 mm, 81.7500 mm): Pad 2 [unconnected-(U5-ROW6-Pad2)] of U5 on F.Cu
+    @(51.1200 mm, 82.2500 mm): Pad 1 [unconnected-(U5-ROW7-Pad1)] of U5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.5000 mm, 43.2000 mm): Pad 1 [I2C_SCL] of IC1 on F.Cu
+    @(66.5000 mm, 43.6000 mm): Pad 2 [I2S_MCLK] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.5000 mm, 43.2000 mm): Pad 1 [I2C_SCL] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.5000 mm, 43.6000 mm): Pad 2 [I2S_MCLK] of IC1 on F.Cu
+    @(66.5000 mm, 44.0000 mm): Pad 3 [+3.3V] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.5000 mm, 43.6000 mm): Pad 2 [I2S_MCLK] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.5000 mm, 44.0000 mm): Pad 3 [+3.3V] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.5000 mm, 44.4000 mm): Pad 4 [+3.3V] of IC1 on F.Cu
+    @(66.5000 mm, 44.8000 mm): Pad 5 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(66.5000 mm, 44.4000 mm): Pad 4 [+3.3V] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(67.2000 mm, 45.5000 mm): Pad 6 [I2S_SCL] of IC1 on F.Cu
+    @(67.6000 mm, 45.5000 mm): Pad 7 [I2S_ASDOUT] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(67.2000 mm, 45.5000 mm): Pad 6 [I2S_SCL] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(67.6000 mm, 45.5000 mm): Pad 7 [I2S_ASDOUT] of IC1 on F.Cu
+    @(68.0000 mm, 45.5000 mm): Pad 8 [I2S_LRCK] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(67.6000 mm, 45.5000 mm): Pad 7 [I2S_ASDOUT] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.0000 mm, 45.5000 mm): Pad 8 [I2S_LRCK] of IC1 on F.Cu
+    @(68.4000 mm, 45.5000 mm): Pad 9 [I2S_DSDIN] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.0000 mm, 45.5000 mm): Pad 8 [I2S_LRCK] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.4000 mm, 45.5000 mm): Pad 9 [I2S_DSDIN] of IC1 on F.Cu
+    @(68.8000 mm, 45.5000 mm): Pad 10 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.4000 mm, 45.5000 mm): Pad 9 [I2S_DSDIN] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 44.8000 mm): Pad 11 [+3.3V] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 44.8000 mm): Pad 11 [+3.3V] of IC1 on F.Cu
+    @(69.5000 mm, 44.4000 mm): Pad 12 [AUDIO+] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 44.4000 mm): Pad 12 [AUDIO+] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 44.4000 mm): Pad 12 [AUDIO+] of IC1 on F.Cu
+    @(69.5000 mm, 44.0000 mm): Pad 13 [AUDIO-] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 44.0000 mm): Pad 13 [AUDIO-] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 44.0000 mm): Pad 13 [AUDIO-] of IC1 on F.Cu
+    @(69.5000 mm, 43.6000 mm): Pad 14 [Net-(IC1-DACVREF)] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 43.6000 mm): Pad 14 [Net-(IC1-DACVREF)] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 43.6000 mm): Pad 14 [Net-(IC1-DACVREF)] of IC1 on F.Cu
+    @(69.5000 mm, 43.2000 mm): Pad 15 [Net-(IC1-ADCVREF)] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(69.5000 mm, 43.2000 mm): Pad 15 [Net-(IC1-ADCVREF)] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.8000 mm, 42.5000 mm): Pad 16 [Net-(IC1-VMID)] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.8000 mm, 42.5000 mm): Pad 16 [Net-(IC1-VMID)] of IC1 on F.Cu
+    @(68.4000 mm, 42.5000 mm): Pad 17 [Net-(IC1-MIC1N)] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.4000 mm, 42.5000 mm): Pad 17 [Net-(IC1-MIC1N)] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.4000 mm, 42.5000 mm): Pad 17 [Net-(IC1-MIC1N)] of IC1 on F.Cu
+    @(68.0000 mm, 42.5000 mm): Pad 18 [MIC+] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.0000 mm, 42.5000 mm): Pad 18 [MIC+] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(68.0000 mm, 42.5000 mm): Pad 18 [MIC+] of IC1 on F.Cu
+    @(67.6000 mm, 42.5000 mm): Pad 19 [I2C_SDA] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(67.6000 mm, 42.5000 mm): Pad 19 [I2C_SDA] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(67.6000 mm, 42.5000 mm): Pad 19 [I2C_SDA] of IC1 on F.Cu
+    @(67.2000 mm, 42.5000 mm): Pad 20 [+3.3V] of IC1 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(67.2000 mm, 42.5000 mm): Pad 20 [+3.3V] of IC1 on F.Cu
+    @(68.0000 mm, 44.0000 mm): Pad 21 [GND] of IC1 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

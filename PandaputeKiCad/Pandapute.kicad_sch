@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ffc7a51b-020c-46f5-a124-368ece149fed")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 15.875 15.875)
+		(size 109.22 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32a8596c-ca77-46a2-a702-c52e47750243")
+		(property "Sheetname" "Power"
+			(at 15.875 15.1634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 15.875 73.6096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pandapute"
+				(path "/ffc7a51b-020c-46f5-a124-368ece149fed"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 140.97)
+		(size 101.6 52.705)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35698a6c-562f-4365-8d7f-66356fdaf62a")
+		(property "Sheetname" "Peripherals"
+			(at 130.81 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 130.81 194.2596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pandapute"
+				(path "/ffc7a51b-020c-46f5-a124-368ece149fed"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.875 77.47)
+		(size 109.22 60.325)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e2a64f6-51b4-44a7-bcb1-576cdccf3156")
+		(property "Sheetname" "Audio"
+			(at 15.875 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 15.875 138.3796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pandapute"
+				(path "/ffc7a51b-020c-46f5-a124-368ece149fed"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 15.24)
+		(size 101.6 57.785)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "628f00d4-5e81-4828-8ce7-cd5362351adc")
+		(property "Sheetname" "ESP32"
+			(at 130.81 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 130.81 73.6096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pandapute"
+				(path "/ffc7a51b-020c-46f5-a124-368ece149fed"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 77.47)
+		(size 101.6 60.325)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c2d077b-70a5-4760-93f5-45948a0025df")
+		(property "Sheetname" "Keyboard"
+			(at 130.81 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keyboard.kicad_sch"
+			(at 130.81 138.3796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pandapute"
+				(path "/ffc7a51b-020c-46f5-a124-368ece149fed"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 140.97)
+		(size 109.22 52.705)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9acd222c-8ee1-4700-a3c1-61f9b8f3e3cf")
+		(property "Sheetname" "Display"
+			(at 16.51 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 16.51 194.2596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pandapute"
+				(path "/ffc7a51b-020c-46f5-a124-368ece149fed"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
