@@ -64,7 +64,7 @@ and
 ![](assets/img/PCBfinal.png)
 
 Now yer probably wondering, will you just carry a PCB around ? OF COURSE NOT. But you know what im also not gonna do ?
-Put it in some lame ass 3d printed case, that would be boring, inaccurate, and wouldn't feel good in my hands. So ... whats my solution for the
+Put it in some lame ass 3d printed case. that would be boring, inaccurate, and wouldn't feel good in my hands. So ... whats my solution for the
 
 ### Case
 
