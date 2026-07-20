@@ -156,36 +156,40 @@ Single file with every pin, I²C address, and system constant. Change the PCB pi
 
 ### BOM
 
-| # | Qty | Part | Package / Notes |
-|---|-----|------|-----------------|
-| 1 | 1 | ESP32-S3-WROOM-1-N16R8 | module 18×25.5mm |
-| 2 | 1 | IP5306 | QFN, Injoinic power bank IC |
-| 3 | 1 | NS4150B | MSOP-8, 3W Class D amp |
-| 4 | 1 | AP2112K-3.3 | SOT-23-5, 3.3V LDO |
-| 5 | 1 | ES8311 | QFN, audio codec I²S |
-| 6 | 1 | TCA8418RTWR | QFN, keyboard matrix controller |
-| 7 | 1 | USB-C receptacle HRO TYPE-C-31-M-12 | 16-pin, USB 2.0 |
-| 8 | 37 | 1N4148 | DO-35, keyboard matrix diodes |
-| 9 | 32 | Kailh Choc v1 switch | low-profile mechanical |
-| 10 | 2 | LED 0805 | power + charging indicators |
-| 11 | 1 | Resistor kit 0805 | 10k×5, 5.1k×2, 100k×3, 4.7k×2, 2.2k×1, 1k×2 |
-| 12 | 1 | Capacitor kit 0603 | 22µF×2, 10µF×2, 2.2µF×1, 1µF×12, 0.1µF×3 |
-| 13 | 1 | 2.2µH inductor | 1206, IP5306 boost |
-| 14 | 1 | Pin header 1×40 (male) | snap to size |
-| 15 | 1 | Pin socket 1×40 (female) | snap to size |
-| 16 | 1 | Slide switch SPDT | battery on/off |
-| 17 | 3 | Omron B3F tactile 6mm | reset, boot, user |
-| 18 | 1 | SKRHABE010 | 5-way nav switch, Alps Alpine |
-| 19 | 2 | JST PH 1×02 2.0mm | speaker connectors |
-| 20 | 1 | PJ-342B | 3.5mm audio jack THT |
-| 21 | 1 | CMA-4544PF-W | electret microphone |
-| 22 | 1 | MPU6050 | 6-axis IMU I²C |
-| 23 | 1 | 804050 LiPo 2000mAh 3.7V | 80×40×5mm with protection |
-| 24 | 1 | 2.8" ILI9341 + touch + SD | SPI TFT module (TBD exact model) |
-| 25 | 1 | Speaker 4Ω 3W | 35mm or 40mm |
-| 26 | 32 | Choc v1 keycaps | low-profile 1u |
-| 27 | 1 | M3 standoff + screw kit | assorted hex standoffs |
-| 28 | 1 | M3 heatset insert kit | brass threaded inserts |
-| 29 | 1 | Rubber feet kit | adhesive silicone |
-| 30 | 1 | External SPI TFT | Waveshare-style 1.44"-2.0" |
-| 31 | 1 | 14-pin dupont ribbon cable | F-F for external display |
+| # | Qty | Part | Price (€) | Package / Notes |
+|---|-----|------|-----------|-----------------|
+| 1 | 1 | ESP32-S3-WROOM-1-N16R8 | 6.07 | module 18×25.5mm |
+| 2 | 1 | IP5306 | 1.15 | QFN, Injoinic power bank IC |
+| 3 | 1 | NS4150B | — | MSOP-8, 3W Class D amp |
+| 4 | 1 | AP2112K-3.3 | — | SOT-23-5, 3.3V LDO |
+| 5 | 1 | ES8311 | 3.79 | QFN, audio codec I²S |
+| 6 | 1 | TCA8418RTWR | 1.85 | QFN, keyboard matrix controller |
+| 7 | 1 | USB-C receptacle HRO TYPE-C-31-M-12 | 2.09 | 16-pin, USB 2.0 |
+| 8 | 37 | 1N4148 | 1.05 | DO-35, keyboard matrix diodes |
+| 9 | 32 | Kailh Choc v1 switch | 26.79 | low-profile mechanical |
+| 10 | 2 | LED 0805 | 3.00 | power + charging indicators |
+| 11 | 1 | Resistor kit 0805 | 4.00 | 10k×5, 5.1k×2, 100k×3, 4.7k×2, 2.2k×1, 1k×2 |
+| 12 | 1 | Capacitor kit 0603 | — | 22µF×2, 10µF×2, 2.2µF×1, 1µF×12, 0.1µF×3 |
+| 13 | 1 | 2.2µH inductor | 5.29 | 1206, IP5306 boost |
+| 14 | 1 | Pin header 1×40 (male) | — | snap to size |
+| 15 | 1 | Pin socket 1×40 (female) | — | snap to size |
+| 16 | 1 | Slide switch SPDT | 2.09 | battery on/off |
+| 17 | 3 | Omron B3F tactile 6mm | 9.19 | reset, boot, user |
+| 18 | 1 | SKRHABE010 | 2.59 | 5-way nav switch, Alps Alpine |
+| 19 | 2 | JST PH 1×02 2.0mm | 3.00 | speaker connectors |
+| 20 | 1 | PJ-342B | 2.69 | 3.5mm audio jack THT |
+| 21 | 1 | CMA-4544PF-W | 8.29 | electret microphone |
+| 22 | 1 | MPU6050 | 4.79 | 6-axis IMU I²C |
+| 23 | 1 | 804050 LiPo 2000mAh 3.7V | 10.79 | 80×40×5mm with protection |
+| 24 | 1 | 2.8" ILI9341 + touch + SD | 6.19 | SPI TFT module |
+| 25 | 1 | Speaker 4Ω 3W | 1.79 | 35mm or 40mm |
+| 26 | 32 | Choc v1 keycaps | 39.79 | low-profile 1u |
+| 27 | 1 | M3 standoff + screw kit | — | assorted hex standoffs |
+| 28 | 1 | M3 heatset insert kit | — | brass threaded inserts |
+| 29 | 1 | Rubber feet kit | — | adhesive silicone |
+| 30 | 1 | External SPI TFT | — | Waveshare-style 1.44"-2.0" |
+| 31 | 1 | 14-pin dupont ribbon cable | — | F-F for external display |
+| 32 | 1 | 2TB microSD card | 8.39 | Class 10, A2, for storage |
+| | | **PCB** | **140.00** | 191×158mm 4-layer |
+| | | **Shipping** | **40.00** | |
+| | | **Total** | **334.67** | |
