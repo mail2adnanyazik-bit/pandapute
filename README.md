@@ -14,7 +14,7 @@ So, the Pandapute features every single featire the Cardputer has + more !
 
 It has :
 
-- The best ESP32 chip that has wifi and bluetooth capabilities
+- The best ESP32 chip that has wifi and bluetooth capabilities (ESP32-S3-WROOM-1-N16R8)
 - a actual **extremely** low profile, compact, built in mechanical 32-key keyboard
 - an Audio Jack
 - A LiPo battery that will last ages
