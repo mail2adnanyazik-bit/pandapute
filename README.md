@@ -71,6 +71,13 @@ Put it in some lame ass 3d printed case. that would be boring, inaccurate, and w
 You see, instead of the usual 3d printed stuff, i've decided im going to use the full potential of my makespace and make
 a custom wood case with a nice finish and accurate measurements after ordering the components, using my local wood workshop.
 
+Another reason for the wood case is inaccuracy - what i mean by that is that some of my components have rather inaccurate measurements - the measurements i have currently on the PCB are only approximations for some components, for example my display :
+Since there isn't a prebuilt footprint for this, i had to make my own version which is based on a user-made 3d model approximation of the same component - the downside of this is that its not accurate.
+For the PCB this is rather easy to fix - just order the components first and _then_ adjust the PCB after measuring the components with a digital caliper !
+
+This doesn't work the same way for the case, since how the components look and how big or tall they are greatly matters to how the case looks - and since i will probably have to adjust the PCB later too,
+the case's size will also change - It just does not make sense for me to spend literal hours on a CAD that won't be used _or_ accurate for my PCB.
+
 ## Firmware
 
 The firmware is a full OS-like environment, not just a bunch of drivers. It runs on the Arduino framework with PlatformIO and gives you a desktop UI, terminal, text editor, file manager, and USB HID keyboard mode.
