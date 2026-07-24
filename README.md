@@ -92,6 +92,8 @@ For the PCB this is rather easy to fix - just order the components first and _th
 This doesn't work the same way for the case, since how the components look and how big or tall they are greatly matters to how the case looks - and since i will probably have to adjust the PCB later too,
 the case's size will also change - It just does not make sense for me to spend literal hours on a CAD that won't be used _or_ accurate for my PCB.
 
+As to how the case will be assembled - it will be made up of 2 parts - One bottom shell which holds the PCB and has holes for the audio jack, Usb-C Port, and whatever else sticks out the side, and one Top Plate which has holes that the top components that should be expose can poke through (screen, switches, keyboard, etc.)
+
 ## Firmware
 
 The firmware is a full OS-like environment, not just a bunch of drivers. It runs on the Arduino framework with PlatformIO and gives you a desktop UI, terminal, text editor, file manager, and USB HID keyboard mode.
