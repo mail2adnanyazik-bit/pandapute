@@ -1,5 +1,7 @@
 # Pandapute - a mini computer built from scratch
 
+![](assets/img/PCB3DMODEL.png)
+
 ## The Inspiration
 
 So, one day i was working on my Split Keyboard project at my makespace, and i saw a friend of mine using a cardputer adv, and was curious.
@@ -62,6 +64,18 @@ and
 ### PCB
 
 ![](assets/img/PCBfinal.png)
+
+to visualize how this will look irl, here are a few pics ! I only added the important components that you'll actually see, not the encoder chips and stuff :
+
+![](assets/img/PCB3DMODEL.png)
+
+![](assets/img/PCB3DSIDE.png)
+
+![](assets/img/PCB3DOTHERSIDELOL.png)
+
+![](assets/img/PCB3DTOPVIEW.png)
+
+![](assets/img/PCB3DUNDERSIDE.png)
 
 Now yer probably wondering, will you just carry a PCB around ? OF COURSE NOT. But you know what im also not gonna do ?
 Put it in some lame ass 3d printed case. that would be boring, inaccurate, and wouldn't feel good in my hands. So ... whats my solution for the
@@ -196,7 +210,7 @@ Single file with every pin, I²C address, and system constant. Change the PCB pi
 | 29  | 1   | Rubber feet kit                     | —          | adhesive silicone                           |
 | 30  | 1   | External SPI TFT                    | —          | Waveshare-style 1.44"-2.0"                  |
 | 31  | 1   | 14-pin dupont ribbon cable          | —          | F-F for external display                    |
-| 32  | 1   | 2TB microSD card                    | 8.39       | Class 10, A2, for storage                   |
+| 32  | 1   | 32GB microSD card                   | 8.39       | Class 10, A2, for storage                   |
 |     |     | **PCB**                             | **140.00** | 191×158mm 4-layer                           |
 |     |     | **Shipping**                        | **40.00**  |                                             |
 |     |     | **Total**                           | **334.67** |                                             |

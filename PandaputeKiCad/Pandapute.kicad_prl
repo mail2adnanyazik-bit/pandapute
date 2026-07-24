@@ -122,26 +122,14 @@
   "project": {
     "files": [
       {
-        "name": "Pandapute.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 12,
-          "pos_y": 40,
-          "size_x": 1416,
-          "size_y": 848
-        }
-      },
-      {
         "name": "Pandapute.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": false,
-          "pos_x": 12,
+          "pos_x": 726,
           "pos_y": 40,
-          "size_x": 1416,
+          "size_x": 702,
           "size_y": 848
         }
       }
