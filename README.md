@@ -2,18 +2,18 @@
 
 ![](assets/img/CoverPic.png)
 
-Before you keep reading and find out more about my kickass project, first i want to give credit and a massive thanks to @zsharpminor, or Udo - He's my first friend on Hack Club, a reviewer, and all around great guy who helped me with this project along every step of the way.
+Before you keep reading and find out more about my kickass project, first I want to give credit and a massive thanks to @zsharpminor, or Udo - He's my first friend on Hack Club, a reviewer, and all-around great guy who helped me with this project along every step of the way.
 This project would not have been possible without him, so <3 to him :D
 
 ## The Inspiration
 
-So, one day i was working on my Split Keyboard project at my makespace, and i saw a friend of mine using a cardputer adv (which is a small, portable esp-based computer - see pic), and was curious.
-I asked him what it it was, and he showed me, and i gotta say, i was skeptical at first, but then i was blown away - i just had one complaint when i saw the thing :
+So, one day I was working on my Split Keyboard project at my makespace, and I saw a friend of mine using a cardputer adv (which is a small, portable esp-based computer - see pic), and was curious.
+I asked him what it was, and he showed me, and I gotta say, I was skeptical at first, but then I was blown away - I just had one complaint when I saw the thing :
 the keyboard. You see, the original cardputer uses this tiny ass 56-key keyboard, which is 1) too many keys in my opinion, and 2) extremely hard to type on.
 
 ![](assets/img/Cardputer.png)
 
-So, i decided to make my own, and get funding from Outpost.
+So, I decided to make my own, and get funding from Outpost.
 
 ## The Features
 
@@ -22,7 +22,7 @@ So, the Pandapute features every single feature the Cardputer has + more !
 It has :
 
 - The best ESP32 chip that has wifi and bluetooth capabilities (ESP32-S3-WROOM-1-N16R8)
-- a actual **extremely** low profile, compact, built in mechanical 32-key keyboard
+- an actual **extremely** low profile, compact, built in mechanical 32-key keyboard
 - an Audio Jack
 - A LiPo battery that will last ages
 - a built in speaker
@@ -30,7 +30,7 @@ It has :
 - exposed I2C, GPIO, Power, etc. Pins so you can connect external modules or breakout boards, like a secondary display
 - A USB-C port for **both** flashing **and** charging
 - a tilt sensor (to do cool stuff)
-- a 2.8" display (around double as big as the cardputer)
+- a 2.8" display (around twice as big as the cardputer)
 
 ## The Build
 
@@ -70,7 +70,7 @@ and
 
 ![](assets/img/PCBfinal.png)
 
-to visualize how this will look irl, here are a few pics ! I only added the important components that you'll actually see, not the encoder chips and stuff :
+to visualize how this will look in real life, here are a few pics ! I only added the important components that you'll actually see, not the encoder chips and stuff :
 
 ![](assets/img/PCB3DMODEL.png)
 
@@ -82,21 +82,21 @@ to visualize how this will look irl, here are a few pics ! I only added the impo
 
 ![](assets/img/PCB3DUNDERSIDE.png)
 
-Now yer probably wondering, will you just carry a PCB around ? OF COURSE NOT. But you know what im also not gonna do ?
-Put it in some lame ass 3d printed case. that would be boring, inaccurate, and wouldn't feel good in my hands. So ... whats my solution for the
+Now you're probably wondering, will you just carry a PCB around ? OF COURSE NOT. But you know what I'm also not gonna do ?
+Put it in some lame ass 3d printed case. That would be boring, inaccurate, and wouldn't feel good in my hands. So ... what's my solution for the
 
 ### Case ?
 
-You see, instead of the usual 3d printed stuff, i've decided im going to use the full potential of my makespace and make
+You see, instead of the usual 3d printed stuff, I've decided I'm going to use the full potential of my makespace and make
 a custom wood case with a nice finish and accurate measurements after ordering the components, using my local wood workshop.
 
-Another reason for the wood case is inaccuracy - what i mean by that is that some of my components have rather inaccurate measurements - the measurements i have currently on the PCB are only approximations for some components, for example my display :
-Since there isn't a prebuilt footprint for this, i had to make my own version which is based on a user-made 3d model approximation of the same component - the downside of this is that its not accurate.
+Another reason for the wood case is inaccuracy - what I mean by that is that some of my components have rather inaccurate measurements - the measurements I have currently on the PCB are only approximations for some components, for example my display :
+Since there isn't a prebuilt footprint for this, I had to make my own version which is based on a user-made 3d model approximation of the same component - the downside of this is that it's not accurate.
 For the PCB this is rather easy to fix - just order the components first and _then_ adjust the PCB after measuring the components with a digital caliper !
 
-As to how the case will be assembled - it will be made up of 2 parts - One bottom shell which holds the PCB and has holes for the audio jack, Usb-C Port, and whatever else sticks out the side, and one Top Plate which has holes that the top components that should be expose can poke through (screen, switches, keyboard, etc.)
+As to how the case will be assembled - it will be made up of 2 parts - One bottom shell which holds the PCB and has holes for the audio jack, USB-C port, and whatever else sticks out the side, and one Top Plate which has holes that the top components that should be exposed can poke through (screen, switches, keyboard, etc.)
 
-To visualize how the entire thing will look, i made a CAD after @zsharpminor (my first friend on hack club, was a great help, if your reading this tysm ! ) said it would be helpful for polish
+To visualize how the entire thing will look, I made a CAD after @zsharpminor (my first friend on Hack Club, was a great help, if you're reading this tysm ! ) said it would be helpful for polish
 
 I first made a model of the Bottom Shell :
 
@@ -106,11 +106,11 @@ Then of the Top part (with cool Panda logo, also thanks to zsharp's feedback - a
 
 ![](assets/img/CaseTop.png)
 
-After that for visualization purposes i made an Assembly to show how it will look in the end :
+After that for visualization purposes I made an Assembly to show how it will look in the end :
 
 ![](assets/img/Assembly.png)
 
-If you want a better more interactive look at this case and how its built, check out the onshape document where i made it !
+If you want a better more interactive look at this case and how it's built, check out the Onshape document where I made it !
 
 https://cad.onshape.com/documents/acd94843717f517182d6e668/w/23be4fdb216877c251d3e9a3/e/5f36188dd017400931f1858c?renderMode=0&uiState=6a65fce0e255515915538acc
 
@@ -199,55 +199,46 @@ Single file with every pin, I²C address, and system constant. Change the PCB pi
 
 ### BOM
 
-| #   | Qty | Part                                | Price (€)  | Package / Notes                             |
-| --- | --- | ----------------------------------- | ---------- | ------------------------------------------- |
-| 1   | 1   | ESP32-S3-WROOM-1-N16R8              | 6.07       | module 18×25.5mm                            |
-| 2   | 1   | IP5306                              | 1.15       | QFN, Injoinic power bank IC                 |
-| 3   | 1   | NS4150B                             | —          | MSOP-8, 3W Class D amp                      |
-| 4   | 1   | AP2112K-3.3                         | —          | SOT-23-5, 3.3V LDO                          |
-| 5   | 1   | ES8311                              | 3.79       | QFN, audio codec I²S                        |
-| 6   | 1   | TCA8418RTWR                         | 1.85       | QFN, keyboard matrix controller             |
-| 7   | 1   | USB-C receptacle HRO TYPE-C-31-M-12 | 2.09       | 16-pin, USB 2.0                             |
-| 8   | 37  | 1N4148                              | 1.05       | DO-35, keyboard matrix diodes               |
-| 9   | 32  | Kailh Choc v1 switch                | 26.79      | low-profile mechanical                      |
-| 10  | 2   | LED 0805                            | 3.00       | power + charging indicators                 |
-| 11  | 1   | Resistor kit 0805                   | 4.00       | 10k×5, 5.1k×2, 100k×3, 4.7k×2, 2.2k×1, 1k×2 |
-| 12  | 1   | Capacitor kit 0603                  | —          | 22µF×2, 10µF×2, 2.2µF×1, 1µF×12, 0.1µF×3    |
-| 13  | 1   | 2.2µH inductor                      | 5.29       | 1206, IP5306 boost                          |
-| 14  | 1   | Pin header 1×40 (male)              | —          | snap to size                                |
-| 15  | 1   | Pin socket 1×40 (female)            | —          | snap to size                                |
-| 16  | 1   | Slide switch SPDT                   | 2.09       | battery on/off                              |
-| 17  | 3   | Omron B3F tactile 6mm               | 9.19       | reset, boot, user                           |
-| 18  | 1   | SKRHABE010                          | 2.59       | 5-way nav switch, Alps Alpine               |
-| 19  | 2   | JST PH 1×02 2.0mm                   | 3.00       | speaker connectors                          |
-| 20  | 1   | PJ-342B                             | 2.69       | 3.5mm audio jack THT                        |
-| 21  | 1   | CMA-4544PF-W                        | 8.29       | electret microphone                         |
-| 22  | 1   | MPU6050                             | 4.79       | 6-axis IMU I²C                              |
-| 23  | 1   | 804050 LiPo 2000mAh 3.7V            | 10.79      | 80×40×5mm with protection                   |
-| 24  | 1   | 2.8" ILI9341 + touch + SD           | 6.19       | SPI TFT module                              |
-| 25  | 1   | Speaker 4Ω 3W                       | 1.79       | 35mm or 40mm                                |
-| 26  | 32  | Choc v1 keycaps                     | 39.79      | low-profile 1u                              |
-| 27  | 1   | M3 standoff + screw kit             | —          | assorted hex standoffs                      |
-| 28  | 1   | M3 heatset insert kit               | —          | brass threaded inserts                      |
-| 29  | 1   | Rubber feet kit                     | —          | adhesive silicone                           |
-| 30  | 1   | External SPI TFT                    | —          | Waveshare-style 1.44"-2.0"                  |
-| 31  | 1   | 14-pin dupont ribbon cable          | —          | F-F for external display                    |
-| 32  | 1   | 32GB microSD card                   | 8.39       | Class 10, A2, for storage                   |
-|     |     | **PCB**                             | **140.00** | 191×158mm 4-layer                           |
-|     |     | **Shipping**                        | **40.00**  |                                             |
-|     |     | **Total**                           | **334.67** |                                             |
+| #   | Qty | Part                                | Price (€)  | Notes                                      |
+| --- | --- | ----------------------------------- | ---------- | ------------------------------------------ |
+| 1   | 1   | ESP32-S3-WROOM-1 N16               | 6.07       | Microcontroller                            |
+| 2   | 1   | IP5306                              | 1.15       | Charging IC                                |
+| 3   | 1   | ES8311                              | 3.79       | Audio encoder IC                           |
+| 4   | 1   | TCA8418RTWR                         | 1.85       | Switch matrix scanning IC                  |
+| 5   | 3   | Tactile switches                    | 9.19       | Power/Boot/etc. switch                     |
+| 6   | 1   | CMA-4544PF-W                        | 8.29       | Microphone                                 |
+| 7   | 1   | 2000 mAh 3.7V LiPo Battery         | 10.79      | Battery                                    |
+| 8   | 1   | ILI9341                             | 6.19       | Display                                    |
+| 9   | 32  | Kailh extreme low profile keycaps   | 39.79      | Keycaps                                    |
+| 10  | 1   | USB-C 2.0 receptacle 16 pin         | 2.09       | USB-C port                                 |
+| 11  | 32  | IN4148                              | 1.05       | Diode                                      |
+| 12  | 32  | Kailh choc v1 brown switches        | 26.79      | Keyboard switches                          |
+| 13  | 2   | Blue and green LEDs                 | 3.00       | LEDs                                       |
+| 14  | /   | Resistors from 1 - 100k            | 4.00       | Resistor kit                               |
+| 15  | 1   | 12 V SPST Switch                    | 2.09       | Switch for battery                         |
+| 16  | 1   | SKRHABE010                          | 2.59       | 5 way nav switch                           |
+| 17  | 1   | JST connector kit                   | 3.00       | Connector                                  |
+| 18  | 1   | PJ-342B                             | 2.69       | 3mm Audio Jack                             |
+| 19  | 1   | Inductor kit                        | 5.29       | Inductors                                  |
+| 20  | 1   | MPU6050                             | 4.79       | Tilt sensor                                |
+| 21  | 1   | 4 Ohm 3 Watt stereo speaker         | 1.79       | Speaker                                    |
+| 22  | 1   | 32GB SD Card                        | 8.39       | Storage                                    |
+|     | 1   | **PCB**                             | **140.00** | 191×158mm 4-layer                          |
+|     | 1   | **Shipping**                        | **40.00**  |                                            |
+|     |     | **Total**                           | **334.67** |                                            |
+|     |     | **Total (USD)**                     | **379.89** |                                            |
 
 ## Why X Tier ?
 
 Although this project was initially supposed to be S-Tier and _much_ more simple than its current version, the idea really
-grew on me, and i kept having more and more cool ideas for features i could add, and for some reason i _really_ wanted to outdo the cardputer.
-So i put in the effort, watched literal days of videos on differential pairs, PCB design, and looked through countless datasheets just to make this project the best it could possibly be.
+grew on me, and I kept having more and more cool ideas for features I could add, and for some reason I _really_ wanted to outdo the cardputer.
+So I put in the effort, watched literal days of videos on differential pairs, PCB design, and looked through countless datasheets just to make this project the best it could possibly be.
 It evolved into a complex, extremely cool learning experience and project, not just for me, but for every person at my makespace and on slack who spent hours with me, showing me
-what i did wrong (it was a lot), what could be improved (also a lot), and what i did well - A great thanks to all of those people too !
+what I did wrong (it was a lot), what could be improved (also a lot), and what I did well - A great thanks to all of those people too !
 
-Also, to any reviewers - i hope this project makes the cut for X Tier, and if not, ill make sure to put in the work to somehow get it there, as it could never survive
+Also, to any reviewers - I hope this project makes the cut for X Tier, and if not, I'll make sure to put in the work to somehow get it there, as it could never survive
 on just S Tier.
 
-All in all, im extremely happy with what i learned, how much time i put in to this, and how many people contributed to this project.
+All in all, I'm extremely happy with what I learned, how much time I put in to this, and how many people contributed to this project.
 
 I couldn't be more proud
