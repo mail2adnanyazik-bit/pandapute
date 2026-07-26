@@ -209,3 +209,32 @@ So i'll think about it a bit, but this is the option im leaning towards, because
 so yeah, ill think about it.
 
 Also, i feel like im in an Andy Weir book with all the logging and journaling. i feel like the dude from the martian, Mark Watney. Exceot i wont die if i mess shit up. Eh.
+
+## July 26 : Case T-T
+
+I was overruled by the feedback gods, and was told by nice dudes who give feedback (shout out to @zsharpminor, my first friend ever on Hack Club) that even if im making a wood case i need a CAD model - cause X tiers just need that amount of polish.
+Ugh.
+
+So i got to work, and im sorry that im only journaling now, i kinda forgot about it.
+
+First thing i did was make the PCB 3d model by getting the step files of all the _important_ Components and adding them to the PCB in KiCad - i then exported the 3d model and imported in to my onshape, which is where i work for 3d modeling (it works in the browser).
+
+I made a few measurements with the measure tool on the PCB and just made an outline of the case and where there need to be holes for the components.
+I decided to make the bottom shell's floor 2 mm thick, and the walls 8mm tall - then the top is 2mm tall, making the entire thing 12mm (1.2cm) high, which is reasonable and still allows access to the extreme low profile switches.
+The walls are half a cm thick (5mm)
+
+I made the Case Bottom which is just a shell for the PCB :
+
+![](assets/img/CaseBottom.png)
+
+And the Case Top (including cool panda logo) :
+
+![](assets/img/CaseTop.png)
+
+After that i made a demonstration of how the thing will come together by adding screw holes and putting the two halves & the PCB 3d model from KiCad together :
+
+![](assets/img/Assembly.png)
+
+Im pretty much done now, what im going to do now is just add these same pics and the info to my README, and push to Github - then im done !
+
+:D

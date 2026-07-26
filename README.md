@@ -1,12 +1,15 @@
 # Pandapute - a mini computer built from scratch
 
-![](assets/img/PCB3DMODEL.png)
+![](assets/img/CoverPic.png)
+
+Before you keep reading and find out more about my kickass project, first i want to give credit and a massive thanks to @zsharpminor, or Udo - He's my first friend on Hack Club, a reviewer, and all around great guy who helped me with this project along every step of the way.
+This project would not have been possible without him, so <3 to him :D
 
 ## The Inspiration
 
-So, one day i was working on my Split Keyboard project at my makespace, and i saw a friend of mine using a cardputer adv, and was curious.
+So, one day i was working on my Split Keyboard project at my makespace, and i saw a friend of mine using a cardputer adv (which is a small, portable esp-based computer), and was curious.
 I asked him what it it was, and he showed me, and i gotta say, i was skeptical at first, but then i was blown away - i just had one complaint when i saw the thing :
-the keyboard. You see, the original cardputer uses this tiny ass 56-key keyboard, which is 1) too many keys in my opinion, and 2) extremeky hard to type on.
+the keyboard. You see, the original cardputer uses this tiny ass 56-key keyboard, which is 1) too many keys in my opinion, and 2) extremely hard to type on.
 
 So, i decided to make my own, and get funding from Outpost.
 
@@ -89,10 +92,21 @@ Another reason for the wood case is inaccuracy - what i mean by that is that som
 Since there isn't a prebuilt footprint for this, i had to make my own version which is based on a user-made 3d model approximation of the same component - the downside of this is that its not accurate.
 For the PCB this is rather easy to fix - just order the components first and _then_ adjust the PCB after measuring the components with a digital caliper !
 
-This doesn't work the same way for the case, since how the components look and how big or tall they are greatly matters to how the case looks - and since i will probably have to adjust the PCB later too,
-the case's size will also change - It just does not make sense for me to spend literal hours on a CAD that won't be used _or_ accurate for my PCB.
-
 As to how the case will be assembled - it will be made up of 2 parts - One bottom shell which holds the PCB and has holes for the audio jack, Usb-C Port, and whatever else sticks out the side, and one Top Plate which has holes that the top components that should be expose can poke through (screen, switches, keyboard, etc.)
+
+To visualize how the entire thing will look, i made a CAD after @zsharpminor (my first friend on hack club, was a great help, if your reading this tysm ! ) said it would be helpful for polish
+
+I first made a model of the Bottom Shell :
+
+![](assets/img/CaseBottom.png)
+
+Then of the Top part (with cool Panda logo, also thanks to zsharp's feedback - again, tysm for putting up with me zsharp !)
+
+![](assets/img/CaseTop.png)
+
+After that for visualization purposes i made an Assembly to show how it will look in the end :
+
+![](assets/img/Assembly.png)
 
 ## Firmware
 
