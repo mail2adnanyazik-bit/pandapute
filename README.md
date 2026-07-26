@@ -7,15 +7,17 @@ This project would not have been possible without him, so <3 to him :D
 
 ## The Inspiration
 
-So, one day i was working on my Split Keyboard project at my makespace, and i saw a friend of mine using a cardputer adv (which is a small, portable esp-based computer), and was curious.
+So, one day i was working on my Split Keyboard project at my makespace, and i saw a friend of mine using a cardputer adv (which is a small, portable esp-based computer - see pic), and was curious.
 I asked him what it it was, and he showed me, and i gotta say, i was skeptical at first, but then i was blown away - i just had one complaint when i saw the thing :
 the keyboard. You see, the original cardputer uses this tiny ass 56-key keyboard, which is 1) too many keys in my opinion, and 2) extremely hard to type on.
+
+![](assets/img/Cardputer.png)
 
 So, i decided to make my own, and get funding from Outpost.
 
 ## The Features
 
-So, the Pandapute features every single featire the Cardputer has + more !
+So, the Pandapute features every single feature the Cardputer has + more !
 
 It has :
 
@@ -83,7 +85,7 @@ to visualize how this will look irl, here are a few pics ! I only added the impo
 Now yer probably wondering, will you just carry a PCB around ? OF COURSE NOT. But you know what im also not gonna do ?
 Put it in some lame ass 3d printed case. that would be boring, inaccurate, and wouldn't feel good in my hands. So ... whats my solution for the
 
-### Case
+### Case ?
 
 You see, instead of the usual 3d printed stuff, i've decided im going to use the full potential of my makespace and make
 a custom wood case with a nice finish and accurate measurements after ordering the components, using my local wood workshop.
@@ -107,6 +109,10 @@ Then of the Top part (with cool Panda logo, also thanks to zsharp's feedback - a
 After that for visualization purposes i made an Assembly to show how it will look in the end :
 
 ![](assets/img/Assembly.png)
+
+If you want a better more interactive look at this case and how its built, check out the onshape document where i made it !
+
+https://cad.onshape.com/documents/acd94843717f517182d6e668/w/23be4fdb216877c251d3e9a3/e/5f36188dd017400931f1858c?renderMode=0&uiState=6a65fce0e255515915538acc
 
 ## Firmware
 
