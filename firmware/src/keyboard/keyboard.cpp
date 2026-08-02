@@ -1,7 +1,6 @@
 #include "keyboard.h"
 #include "config.h"
 #include <Arduino.h>
-#include <string.h>
 
 Keyboard::Keyboard() {
     memset(_raw_matrix, 0, sizeof(_raw_matrix));

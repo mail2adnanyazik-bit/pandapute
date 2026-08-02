@@ -199,34 +199,34 @@ Single file with every pin, I²C address, and system constant. Change the PCB pi
 
 ### BOM
 
-| #   | Qty | Part                                | Price (€)  | Notes                                      |
-| --- | --- | ----------------------------------- | ---------- | ------------------------------------------ |
-| 1   | 1   | ESP32-S3-WROOM-1 N16               | 6.07       | Microcontroller                            |
-| 2   | 1   | IP5306                              | 1.15       | Charging IC                                |
-| 3   | 1   | ES8311                              | 3.79       | Audio encoder IC                           |
-| 4   | 1   | TCA8418RTWR                         | 1.85       | Switch matrix scanning IC                  |
-| 5   | 3   | Tactile switches                    | 9.19       | Power/Boot/etc. switch                     |
-| 6   | 1   | CMA-4544PF-W                        | 8.29       | Microphone                                 |
-| 7   | 1   | 2000 mAh 3.7V LiPo Battery         | 10.79      | Battery                                    |
-| 8   | 1   | ILI9341                             | 6.19       | Display                                    |
-| 9   | 32  | Kailh extreme low profile keycaps   | 39.79      | Keycaps                                    |
-| 10  | 1   | USB-C 2.0 receptacle 16 pin         | 2.09       | USB-C port                                 |
-| 11  | 32  | IN4148                              | 1.05       | Diode                                      |
-| 12  | 32  | Kailh choc v1 brown switches        | 26.79      | Keyboard switches                          |
-| 13  | 2   | Blue and green LEDs                 | 3.00       | LEDs                                       |
-| 14  | /   | Resistors from 1 - 100k            | 4.00       | Resistor kit                               |
-| 15  | 1   | 12 V SPST Switch                    | 2.09       | Switch for battery                         |
-| 16  | 1   | SKRHABE010                          | 2.59       | 5 way nav switch                           |
-| 17  | 1   | JST connector kit                   | 3.00       | Connector                                  |
-| 18  | 1   | PJ-342B                             | 2.69       | 3mm Audio Jack                             |
-| 19  | 1   | Inductor kit                        | 5.29       | Inductors                                  |
-| 20  | 1   | MPU6050                             | 4.79       | Tilt sensor                                |
-| 21  | 1   | 4 Ohm 3 Watt stereo speaker         | 1.79       | Speaker                                    |
-| 22  | 1   | 32GB SD Card                        | 8.39       | Storage                                    |
-|     | 1   | **PCB**                             | **140.00** | 191×158mm 4-layer                          |
-|     | 1   | **Shipping**                        | **40.00**  |                                            |
-|     |     | **Total**                           | **334.67** |                                            |
-|     |     | **Total (USD)**                     | **379.89** |                                            |
+| #   | Qty | Part                              | Price (€)  | Notes                     |
+| --- | --- | --------------------------------- | ---------- | ------------------------- |
+| 1   | 1   | ESP32-S3-WROOM-1 N16              | 6.07       | Microcontroller           |
+| 2   | 1   | IP5306                            | 1.15       | Charging IC               |
+| 3   | 1   | ES8311                            | 3.79       | Audio encoder IC          |
+| 4   | 1   | TCA8418RTWR                       | 1.85       | Switch matrix scanning IC |
+| 5   | 3   | Tactile switches                  | 9.19       | Power/Boot/etc. switch    |
+| 6   | 1   | CMA-4544PF-W                      | 8.29       | Microphone                |
+| 7   | 1   | 2000 mAh 3.7V LiPo Battery        | 10.79      | Battery                   |
+| 8   | 1   | ILI9341                           | 6.19       | Display                   |
+| 9   | 32  | Kailh extreme low profile keycaps | 39.79      | Keycaps                   |
+| 10  | 1   | USB-C 2.0 receptacle 16 pin       | 2.09       | USB-C port                |
+| 11  | 32  | IN4148                            | 1.05       | Diode                     |
+| 12  | 32  | Kailh choc v1 brown switches      | 26.79      | Keyboard switches         |
+| 13  | 2   | Blue and green LEDs               | 3.00       | LEDs                      |
+| 14  | /   | Resistors from 1 - 100k           | 4.00       | Resistor kit              |
+| 15  | 1   | 12 V SPST Switch                  | 2.09       | Switch for battery        |
+| 16  | 1   | SKRHABE010                        | 2.59       | 5 way nav switch          |
+| 17  | 1   | JST connector kit                 | 3.00       | Connector                 |
+| 18  | 1   | PJ-342B                           | 2.69       | 3mm Audio Jack            |
+| 19  | 1   | Inductor kit                      | 5.29       | Inductors                 |
+| 20  | 1   | MPU6050                           | 4.79       | Tilt sensor               |
+| 21  | 1   | 4 Ohm 3 Watt stereo speaker       | 1.79       | Speaker                   |
+| 22  | 1   | 32GB SD Card                      | 8.39       | Storage                   |
+|     | 1   | **PCB**                           | **140.00** | 191×158mm 4-layer         |
+|     | 1   | **Shipping**                      | **40.00**  |                           |
+|     |     | **Total**                         | **334.67** |                           |
+|     |     | **Total (USD)**                   | **379.89** |                           |
 
 ## Why X Tier ?
 

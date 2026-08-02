@@ -17,15 +17,6 @@ bool Touch::begin() {
     return true;
 }
 
-bool Touch::_spi_transfer16(uint8_t cmd, uint16_t &data) {
-    digitalWrite(TOUCH_CS_PIN, LOW);
-    SPI.transfer(cmd);
-    delayMicroseconds(3);
-    data = SPI.transfer16(0);
-    digitalWrite(TOUCH_CS_PIN, HIGH);
-    return true;
-}
-
 TouchPoint Touch::read() {
     TouchPoint pt = {0, 0, 0, false};
 

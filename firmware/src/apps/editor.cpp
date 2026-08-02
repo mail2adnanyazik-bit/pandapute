@@ -16,33 +16,42 @@ extern TFT_eSPI tft;
 static char _lines[EDIT_LINES][EDIT_COLS + 1];
 static int _cursor_row = 0;
 static int _cursor_col = 0;
-static int _file_row = 0;
 static bool _modified = false;
 static unsigned long _cursor_blink = 0;
 static bool _show_cursor = true;
 
-void app_editor_create() {
+static void draw() {
+    tft.fillRect(0, STATUS_BAR_HEIGHT, DISPLAY_WIDTH, DISPLAY_HEIGHT - STATUS_BAR_HEIGHT, TFT_BLACK);
+    tft.setTextColor(TFT_WHITE, TFT_BLACK);
+    tft.setTextSize(1);
+
+    for (int i = 0; i < EDIT_LINES; i++) {
+        tft.setCursor(EDIT_X, EDIT_Y + i * EDIT_LINE_H);
+        tft.print(_lines[i]);
+    }
+
+    tft.setCursor(EDIT_X, EDIT_Y + _cursor_row * EDIT_LINE_H + EDIT_LINE_H + 4);
+    tft.setTextColor(TFT_GREEN, TFT_BLACK);
+    tft.printf("Ln %d Col %d  %s", _cursor_row + 1, _cursor_col + 1,
+               _modified ? "[modified]" : "[saved]");
+}
+
+void app_editor_init() {
     memset(_lines, 0, sizeof(_lines));
     _cursor_row = 0;
     _cursor_col = 0;
-    _file_row = 0;
     _modified = false;
-}
-
-void app_editor_destroy() {}
-
-void app_editor_focus() {
     tft.fillScreen(TFT_BLACK);
-    app_editor_draw();
+    draw();
 }
 
 void app_editor_key(uint8_t mod, uint8_t key) {
-    if (key == 0x29) {
+    if (key == KEY_ESCAPE) {
         if (_modified) {
             kernel_set_status("Unsaved!");
             return;
         }
-        kernel_run_app(APP_DESKTOP);
+        kernel_open(APP_DESKTOP);
         return;
     }
 
@@ -52,7 +61,7 @@ void app_editor_key(uint8_t mod, uint8_t key) {
             _cursor_col = 0;
             _modified = true;
         }
-        app_editor_draw();
+        draw();
         return;
     }
 
@@ -74,7 +83,7 @@ void app_editor_key(uint8_t mod, uint8_t key) {
             _cursor_row--;
             _modified = true;
         }
-        app_editor_draw();
+        draw();
         return;
     }
 
@@ -84,17 +93,17 @@ void app_editor_key(uint8_t mod, uint8_t key) {
     else if (key == KEY_RIGHT && _cursor_col < EDIT_COLS - 1) _cursor_col++;
     else {
         char c = 0;
-        if (key >= 0x04 && key <= 0x1D) {
-            c = 'a' + (key - 0x04);
+        if (key >= KEY_A && key <= KEY_Z) {
+            c = 'a' + (key - KEY_A);
             if (mod & 0x02) c -= 32;
-        } else if (key == 0x27) { c = '0'; }
-        else if (key >= 0x1E && key <= 0x26) { c = '1' + (key - 0x1E); }
-        else if (key == 0x2C) { c = ' '; }
-        else if (key == 0x2B) { c = '\t'; }
-        else if (key == 0x2D) { c = '_'; }
-        else if (key == 0x2E) { c = '='; }
-        else if (key == 0x33) { c = ','; }
-        else if (key == 0x34) { c = '.'; }
+        } else if (key == KEY_0) c = '0';
+        else if (key >= KEY_1 && key <= KEY_9) c = '1' + (key - KEY_1);
+        else if (key == KEY_SPACE) c = ' ';
+        else if (key == KEY_TAB) c = '\t';
+        else if (key == KEY_MINUS) c = '_';
+        else if (key == KEY_EQUAL) c = '=';
+        else if (key == KEY_SEMICOLON) c = ',';
+        else if (key == KEY_QUOTE) c = '.';
 
         if (c) {
             int len = strlen(_lines[_cursor_row]);
@@ -109,7 +118,7 @@ void app_editor_key(uint8_t mod, uint8_t key) {
         }
     }
 
-    app_editor_draw();
+    draw();
 }
 
 void app_editor_tick() {
@@ -120,20 +129,4 @@ void app_editor_tick() {
         int y = EDIT_Y + _cursor_row * EDIT_LINE_H;
         tft.drawRect(x, y, 6, 12, _show_cursor ? TFT_YELLOW : TFT_BLACK);
     }
-}
-
-void app_editor_draw() {
-    tft.fillRect(0, STATUS_BAR_HEIGHT, DISPLAY_WIDTH, DISPLAY_HEIGHT - STATUS_BAR_HEIGHT, TFT_BLACK);
-    tft.setTextColor(TFT_WHITE, TFT_BLACK);
-    tft.setTextSize(1);
-
-    for (int i = 0; i < EDIT_LINES; i++) {
-        tft.setCursor(EDIT_X, EDIT_Y + i * EDIT_LINE_H);
-        tft.print(_lines[i]);
-    }
-
-    tft.setCursor(EDIT_X, EDIT_Y + _cursor_row * EDIT_LINE_H + EDIT_LINE_H + 4);
-    tft.setTextColor(TFT_GREEN, TFT_BLACK);
-    tft.printf("Ln %d Col %d  %s", _cursor_row + 1, _cursor_col + 1,
-               _modified ? "[modified]" : "[saved]");
 }

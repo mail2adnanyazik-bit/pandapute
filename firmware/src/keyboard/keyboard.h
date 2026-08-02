@@ -1,8 +1,6 @@
 #pragma once
 #include <stdint.h>
-
-#define KEYBOARD_ROWS 4
-#define KEYBOARD_COLS 8
+#include "config.h"
 
 class Keyboard {
 public:

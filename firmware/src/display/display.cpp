@@ -29,13 +29,3 @@ void Display::splash(const char* text) {
     _tft.setCursor(_tft.width() / 2 - 50, y + 30);
     _tft.println("Booting...");
 }
-
-void Display::clear(uint16_t color) {
-    _tft.fillScreen(color);
-}
-
-void Display::set_backlight(uint8_t brightness) {
-    analogWrite(DISPLAY_BL_PIN, brightness);
-}
-
-TFT_eSPI& Display::tft() { return _tft; }

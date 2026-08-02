@@ -6,7 +6,6 @@
 PowerManager::PowerManager() {}
 
 bool PowerManager::begin() {
-    Wire.begin();
     pinMode(POWER_LED_PIN, OUTPUT);
     pinMode(CHARGING_LED_PIN, OUTPUT);
     digitalWrite(POWER_LED_PIN, HIGH);
@@ -61,13 +60,6 @@ uint8_t PowerManager::_read_ip5306_reg(uint8_t reg) {
     if (Wire.endTransmission(false) != 0) return 0xFF;
     if (Wire.requestFrom((int)IP5306_I2C_ADDR, (int)1) != 1) return 0xFF;
     return Wire.read();
-}
-
-void PowerManager::_write_ip5306_reg(uint8_t reg, uint8_t val) {
-    Wire.beginTransmission(IP5306_I2C_ADDR);
-    Wire.write(reg);
-    Wire.write(val);
-    Wire.endTransmission();
 }
 
 void PowerManager::set_power_led(bool on) {

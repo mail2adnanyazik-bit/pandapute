@@ -1,6 +1,7 @@
 #include "apps.h"
 #include "kernel.h"
 #include "config.h"
+#include "keyboard/keymap.h"
 #include "mpu/mpu.h"
 #include <Arduino.h>
 #include <TFT_eSPI.h>
@@ -17,39 +18,7 @@ static MPUData _data;
 static unsigned long _last_read = 0;
 static float _smooth_pitch = 0, _smooth_roll = 0;
 
-void app_tilt_create() {
-    memset(&_data, 0, sizeof(_data));
-    _smooth_pitch = 0;
-    _smooth_roll = 0;
-}
-
-void app_tilt_destroy() {}
-
-void app_tilt_focus() {
-    tft.fillScreen(TFT_BLACK);
-    app_tilt_draw();
-}
-
-void app_tilt_key(uint8_t mod, uint8_t key) {
-    if (key == 0x29) kernel_run_app(APP_DESKTOP);
-}
-
-void app_tilt_tick() {
-    unsigned long now = millis();
-    if (now - _last_read < 33) return;
-    _last_read = now;
-
-    if (!g_mpu.present()) return;
-
-    g_mpu.read(&_data);
-
-    _smooth_pitch = _smooth_pitch * 0.85f + _data.pitch * 0.15f;
-    _smooth_roll  = _smooth_roll  * 0.85f + _data.roll  * 0.15f;
-
-    app_tilt_draw();
-}
-
-void app_tilt_draw() {
+static void draw() {
     tft.fillRect(0, STATUS_BAR_HEIGHT, DISPLAY_WIDTH, DISPLAY_HEIGHT - STATUS_BAR_HEIGHT, TFT_BLACK);
 
     tft.setTextColor(TFT_WHITE, TFT_BLACK);
@@ -101,4 +70,31 @@ void app_tilt_draw() {
     tft.setTextColor(TFT_GREEN, TFT_BLACK);
     tft.setCursor(10, DISPLAY_HEIGHT - 12);
     tft.print("ESC:Exit");
+}
+
+void app_tilt_init() {
+    memset(&_data, 0, sizeof(_data));
+    _smooth_pitch = 0;
+    _smooth_roll = 0;
+    tft.fillScreen(TFT_BLACK);
+    draw();
+}
+
+void app_tilt_key(uint8_t mod, uint8_t key) {
+    if (key == KEY_ESCAPE) kernel_open(APP_DESKTOP);
+}
+
+void app_tilt_tick() {
+    unsigned long now = millis();
+    if (now - _last_read < 33) return;
+    _last_read = now;
+
+    if (!g_mpu.present()) return;
+
+    g_mpu.read(&_data);
+
+    _smooth_pitch = _smooth_pitch * 0.85f + _data.pitch * 0.15f;
+    _smooth_roll  = _smooth_roll  * 0.85f + _data.roll  * 0.15f;
+
+    draw();
 }

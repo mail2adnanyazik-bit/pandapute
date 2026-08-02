@@ -2,22 +2,21 @@
 #include <stdint.h>
 #include <SdFat.h>
 
+#define SD_MAX_NAME 36
+
 class SDCard {
 public:
     SDCard();
     bool begin();
     bool is_mounted() const;
 
-    bool open_file(const char* path, oflag_t flags);
-    void close_file();
-    bool read_line(char* buffer, size_t max_len);
-    bool write(const uint8_t* data, size_t len);
+    uint16_t list_dir(const char* path, char names[][SD_MAX_NAME],
+                      bool* is_dir, uint16_t max_entries);
 
     uint64_t total_bytes() const;
     uint64_t used_bytes();
 
 private:
     SdFat _sd;
-    FsFile _file;
     bool _mounted;
 };

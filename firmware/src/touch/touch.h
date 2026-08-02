@@ -19,6 +19,5 @@ public:
 private:
     uint16_t _cal[6];
     bool     _calibrated;
-    bool     _spi_transfer16(uint8_t cmd, uint16_t &data);
     void     _map_to_display(uint16_t &x, uint16_t &y);
 };

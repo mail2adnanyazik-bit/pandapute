@@ -1,7 +1,7 @@
 #pragma once
 #include <stdint.h>
+#include "config.h"
 
-// USB HID keycodes
 #define KEY_A       0x04
 #define KEY_B       0x05
 #define KEY_C       0x06
@@ -95,18 +95,9 @@
 #define KEY_RALT        0xE6
 #define KEY_RGUI        0xE7
 
-// Keymap: [row][col] -> USB HID keycode
-// Modify this to match your physical key layout.
-// Row 0 = top row (closest to display)
-
 static const uint8_t KEYMAP[KEYBOARD_ROWS][KEYBOARD_COLS] = {
-    //  col0    col1    col2    col3    col4    col5    col6    col7
-    {  KEY_1,  KEY_2,  KEY_3,  KEY_4,  KEY_5,  KEY_6,  KEY_7,  KEY_8   },  // row 0
-    {  KEY_9,  KEY_0, KEY_MINUS, KEY_EQUAL, KEY_BACKSPACE, KEY_TAB, KEY_Q, KEY_W },  // row 1
-    {  KEY_E,  KEY_R,  KEY_T,  KEY_Y,  KEY_U,  KEY_I,  KEY_O,  KEY_P   },  // row 2
-    {  KEY_BRACKET_L, KEY_BRACKET_R, KEY_BACKSLASH, KEY_CAPS_LOCK, KEY_A, KEY_S, KEY_D, KEY_F },  // row 3
+    { KEY_1,  KEY_2,  KEY_3, KEY_4, KEY_5,  KEY_6,  KEY_7,  KEY_8  },
+    { KEY_9,  KEY_0,  KEY_MINUS, KEY_EQUAL, KEY_BACKSPACE, KEY_TAB, KEY_Q, KEY_W },
+    { KEY_E,  KEY_R,  KEY_T, KEY_Y, KEY_U,  KEY_I,  KEY_O,  KEY_P  },
+    { KEY_BRACKET_L, KEY_BRACKET_R, KEY_BACKSLASH, KEY_CAPS_LOCK, KEY_A, KEY_S, KEY_D, KEY_F },
 };
-
-// Layer support — define as needed:
-// static const uint8_t KEYMAP_FN[4][8] = { ... };
-// static const uint8_t KEYMAP_SYM[4][8] = { ... };

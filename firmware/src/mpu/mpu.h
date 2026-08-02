@@ -20,6 +20,4 @@ public:
 private:
     bool _present;
     void _write_reg(uint8_t reg, uint8_t val);
-    uint8_t _read_reg(uint8_t reg);
-    int16_t _read_word(uint8_t reg);
 };

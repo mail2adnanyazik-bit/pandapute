@@ -10,7 +10,7 @@ bool SDCard::begin() {
     digitalWrite(SD_CS_PIN, HIGH);
 
     if (!_sd.begin(SdSpiConfig(SD_CS_PIN, SHARED_SPI, SD_SCK_MHZ(25)))) {
-        Serial.println("SD card init failed");
+        Serial.println("SD: init failed");
         return false;
     }
 
@@ -20,21 +20,27 @@ bool SDCard::begin() {
 
 bool SDCard::is_mounted() const { return _mounted; }
 
-bool SDCard::open_file(const char* path, oflag_t flags) {
-    if (!_mounted) return false;
-    return _file.open(path, flags);
-}
+uint16_t SDCard::list_dir(const char* path, char names[][SD_MAX_NAME],
+                          bool* is_dir, uint16_t max_entries) {
+    if (!_mounted) return 0;
 
-void SDCard::close_file() { _file.close(); }
+    FsFile dir;
+    if (!dir.open(path, O_READ)) return 0;
 
-bool SDCard::read_line(char* buffer, size_t max_len) {
-    if (!_mounted || !_file) return false;
-    return _file.fgets(buffer, max_len) > 0;
-}
-
-bool SDCard::write(const uint8_t* data, size_t len) {
-    if (!_mounted || !_file) return false;
-    return _file.write(data, len) == len;
+    uint16_t count = 0;
+    FsFile entry;
+    while (count < max_entries && entry.openNext(&dir, O_READ)) {
+        if (entry.isHidden()) {
+            entry.close();
+            continue;
+        }
+        entry.getName(names[count], SD_MAX_NAME);
+        is_dir[count] = entry.isDirectory();
+        count++;
+        entry.close();
+    }
+    dir.close();
+    return count;
 }
 
 uint64_t SDCard::total_bytes() const {

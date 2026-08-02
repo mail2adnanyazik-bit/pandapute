@@ -4,9 +4,7 @@
 
 static USBHIDKeyboard HIDKbd;
 
-// Map our HID keycodes (USB HID usage IDs) to arduino-esp32 KEY_ constants
 static uint8_t _map_hid_to_arduino(uint8_t keycode) {
-    // Modifier keys
     if (keycode == 0xE1) return KEY_LEFT_SHIFT;
     if (keycode == 0xE0) return KEY_LEFT_CTRL;
     if (keycode == 0xE2) return KEY_LEFT_ALT;
@@ -16,13 +14,11 @@ static uint8_t _map_hid_to_arduino(uint8_t keycode) {
     if (keycode == 0xE6) return KEY_RIGHT_ALT;
     if (keycode == 0xE7) return KEY_RIGHT_GUI;
 
-    // Arrow keys
     if (keycode == 0x52) return KEY_UP_ARROW;
     if (keycode == 0x51) return KEY_DOWN_ARROW;
     if (keycode == 0x50) return KEY_LEFT_ARROW;
     if (keycode == 0x4F) return KEY_RIGHT_ARROW;
 
-    // Special keys
     if (keycode == 0x28) return KEY_RETURN;
     if (keycode == 0x29) return KEY_ESC;
     if (keycode == 0x2A) return KEY_BACKSPACE;
@@ -36,13 +32,10 @@ static uint8_t _map_hid_to_arduino(uint8_t keycode) {
     if (keycode == 0x4B) return KEY_PAGE_UP;
     if (keycode == 0x4E) return KEY_PAGE_DOWN;
 
-    // F-keys
     if (keycode >= 0x3A && keycode <= 0x45) return 0xC2 + (keycode - 0x3A);
 
-    // Letters: HID 0x04-0x1D -> a-z
     if (keycode >= 0x04 && keycode <= 0x1D) return keycode;
 
-    // Numbers: HID 0x1E-0x27 -> '1'-'0'
     if (keycode >= 0x1E && keycode <= 0x26) return '1' + (keycode - 0x1E);
     if (keycode == 0x27) return '0';
 
