@@ -117,6 +117,8 @@ Next is to arrange the components on the PCB - also it got recommended to me by 
 to use a 4 layer PCB, as that lets me dedicate a layer each to GND and POWER - so i have less traces, and no spider nest - cause otherwise EVERY
 GND or +3V/+5V connection would need a trace.
 
+![](assets/img/footprintAssign.png)
+
 ## 2026-10-07 - Session 6 : PCB placement start !
 
 I started arranging the stuff on the PCB, but today i had a lot to do other than techie stuff,
@@ -162,6 +164,8 @@ I looked online , and it seems i can _technically_ just route normal wires and i
 i wouldn't learn anything, and its not recommended - so im going the hard route, and routing a differential pair !
 
 This will be ... **interesting** to say the least.
+
+![](assets/img/PowerPCB.png)
 
 ## 2026-15-07: Wiring done ! (~ 6 hours)
 
@@ -209,6 +213,12 @@ So i'll think about it a bit, but this is the option im leaning towards, because
 so yeah, ill think about it.
 
 Also, i feel like im in an Andy Weir book with all the logging and journaling. i feel like the dude from the martian, Mark Watney. Exceot i wont die if i mess shit up. Eh.
+
+Heres the final PCB :
+
+![](assets/img/PCBFinalActually.png)
+
+Ive also filled the Power sheet with ground cuz apparently thats better
 
 ## July 26 : Case T-T
 
